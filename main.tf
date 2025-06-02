@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "aws_azs_master_tfstate" {
-  bucket = "var.s3_bucket_name"
+  bucket = var.s3_bucket_name
 }
 
 resource "aws_s3_bucket_ownership_controls" "s3_ownership_tfstate" {
