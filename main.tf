@@ -38,7 +38,7 @@ resource "aws_dynamodb_table" "terraform_locks" {
   billing_mode   = var.billing_dynamodb_mode
   hash_key       = "LockID"
   attribute {
-    name = "lockID"
+    name = "LockID"
     type = "S"
   }
 }
