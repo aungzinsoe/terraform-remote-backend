@@ -13,7 +13,7 @@ variable "aws_region" {
 variable "s3_bucket_name" {
   description = "Master S2 Bucket Name"
   type        = string
-  default     = "aws-s3-bucket"
+  default     = "aws-azsmaster-s3-bucket"
 }
 
 variable "dynamodb_name" {
